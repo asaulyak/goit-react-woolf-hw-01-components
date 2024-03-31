@@ -1,0 +1,28 @@
+.transaction-history {
+  font-size: 10px;
+  min-width: 400px;
+  text-align: center;
+  color: grey;
+
+  border-spacing: 1px;
+  border-collapse: separate;
+}
+
+.transaction-history thead {
+  background-color: #00bcd5;
+  color: white;
+  text-transform: uppercase;
+}
+
+.transaction-history th,
+.transaction-history td {
+  padding: 8px;
+}
+
+.transaction-history tr:nth-child(even) {
+  background-color: #ecf1f4;
+}
+
+.type {
+  text-transform: capitalize;
+}
